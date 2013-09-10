@@ -44,27 +44,27 @@ public class problem3and5 {
     
     public static void hailstone(double x) {
 
-    	int term;
+    	int number;
 
     	while (x >= 1) {
 
     		if (x%2=0) {
 
-    			term = x/2;
+    			number = x/2;
 
     			System.out.println(x + "    (Even, next value is " + x"/2)");
 
-    			x = term;
+    			x = number;
 
     		}
     		
     		else {
 
-    			term = 3*x+1;
+    			number = 3*x+1;
 
     			System.out.println(x + "    (Odd, next value is " + x"*3 + 1)");
 
-    			x = term;
+    			x = number;
 
     		}
     	}
